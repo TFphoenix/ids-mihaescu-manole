@@ -1,2 +1,7 @@
 # IDS_Mihaescu_Manole
-Repo to IDS labs, year 2, sem 2, 2019-2020 (10LF382)
+
+## Introducere în Data Science (IDS) - Grupa 382
+### - Alexandra Manole
+### - Teodor-Adrian Mihaescu
+
+![Data Science](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1508177585/Periodic_xlxins.png)
