@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Laborator6</title>
+<title>Laborator6_V2</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13090,7 +13090,8 @@ div#notebook {
 <li>(20 puncte) Aplicati o metoda de missing value imputation, unde este cazul; justificati si documentati metoda folosita.</li>
 <li>(numar de modele <em> numar de seturi de date \</em> 1 punct = 20 de puncte) Pentru fiecare set de date aplicati 5 modele de clasificare din scikit learn. Pentru fiecare raportati: acuratete, scorul F1 - a se vedea <a href="http://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics">sklearn.metrics</a> - folosind 5 fold cross validation. Raportati mediile rezultatelor atat pentru fold-urile de antrenare, cat si pentru cele de testare. Rularile se vor face cu valori fixate ale hiperparametrilor. </li>
 <li>(numar modele * 4 puncte = 20 puncte) Documentati in jupyter notebook fiecare din modelele folosite, in limba romana. Daca acelasi algoritm e folosit pentru mai multe seturi de date, puteti face o sectiune separata cu documentarea algoritmilor + trimitere la algoritm. </li>
-<li>(numar de modele <em> numar de seturi de date \</em> 1 punct = 20 de puncte) Pentru fiecare model: efectuati o cautare a hiperparametrilor optimi folosind grid search si random search (cu parametrul cv = 4), folosind 5 fold cross validation. </li>
+<li>(numar de modele <em> numar de seturi de date </em> 1 punct = 20 de puncte) Raportati performanta fiecarui model, folosind 5 fold cross validation. Pentru fiecare din cele 5 rulari, cautati hiperparametrii optimi folosind 4-fold cross validation. Performanta modelului va fi raportata ca medie a celor  5 rulari. 
+ <em>Observatie:</em> la fiecare din cele 5 rulari, hiperparametrii optimi pot diferi, din cauza datelor utilizate pentru antrenare/validare. </li>
 </ol>
 <p>Se acorda 20 de puncte din oficiu.</p>
 
