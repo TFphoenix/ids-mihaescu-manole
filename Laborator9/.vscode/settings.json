@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "D:\\Program Files\\Anaconda\\Anaconda\\envs\\IDS\\python.exe"
+    "python.pythonPath": "D:\\Program Files\\Anaconda\\Anaconda\\envs\\IDS\\python.exe",
+    "liveServer.settings.port": 5501
 }

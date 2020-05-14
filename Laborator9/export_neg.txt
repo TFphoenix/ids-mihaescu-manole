@@ -1,0 +1,580 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dataset</th>
+      <th>model</th>
+      <th>search_strategy</th>
+      <th>fit_time</th>
+      <th>score_time</th>
+      <th>test_neg_mean_absolute_error</th>
+      <th>train_neg_mean_absolute_error</th>
+      <th>test_neg_mean_squared_error</th>
+      <th>train_neg_mean_squared_error</th>
+      <th>test_neg_median_absolute_error</th>
+      <th>train_neg_median_absolute_error</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>CPU Computer Hardware</td>
+      <td>Linear Regression</td>
+      <td>GridSearchCV</td>
+      <td>0.494645</td>
+      <td>0.003164</td>
+      <td>-43.378262</td>
+      <td>-36.695674</td>
+      <td>-6383.656697</td>
+      <td>-3243.698611</td>
+      <td>-27.053792</td>
+      <td>-25.581576</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>CPU Computer Hardware</td>
+      <td>Linear Regression</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.373086</td>
+      <td>0.002528</td>
+      <td>-43.378262</td>
+      <td>-36.695674</td>
+      <td>-6383.656697</td>
+      <td>-3243.698611</td>
+      <td>-27.053792</td>
+      <td>-25.581576</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>CPU Computer Hardware</td>
+      <td>Decision Tree Regressor</td>
+      <td>GridSearchCV</td>
+      <td>0.958233</td>
+      <td>0.001999</td>
+      <td>-45.505979</td>
+      <td>-31.657317</td>
+      <td>-11405.463714</td>
+      <td>-5361.841284</td>
+      <td>-21.187523</td>
+      <td>-15.768125</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>CPU Computer Hardware</td>
+      <td>Decision Tree Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.356394</td>
+      <td>0.004800</td>
+      <td>-43.919487</td>
+      <td>-27.490610</td>
+      <td>-9889.499927</td>
+      <td>-1806.945175</td>
+      <td>-23.425880</td>
+      <td>-16.874432</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>CPU Computer Hardware</td>
+      <td>Random Forest Regressor</td>
+      <td>GridSearchCV</td>
+      <td>52.488939</td>
+      <td>0.012810</td>
+      <td>-38.922444</td>
+      <td>-24.902618</td>
+      <td>-9417.990893</td>
+      <td>-3037.632457</td>
+      <td>-17.522924</td>
+      <td>-12.382659</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>CPU Computer Hardware</td>
+      <td>Random Forest Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>8.788756</td>
+      <td>0.012168</td>
+      <td>-40.222642</td>
+      <td>-27.846249</td>
+      <td>-10236.169549</td>
+      <td>-4676.394811</td>
+      <td>-19.715973</td>
+      <td>-10.952127</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>CPU Computer Hardware</td>
+      <td>Passive Aggressive Regressor</td>
+      <td>GridSearchCV</td>
+      <td>9.592107</td>
+      <td>0.002195</td>
+      <td>-36.982518</td>
+      <td>-32.891312</td>
+      <td>-6258.945907</td>
+      <td>-5359.098181</td>
+      <td>-19.991516</td>
+      <td>-15.683214</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>CPU Computer Hardware</td>
+      <td>Passive Aggressive Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.879081</td>
+      <td>0.002195</td>
+      <td>-36.282159</td>
+      <td>-33.085869</td>
+      <td>-6057.105549</td>
+      <td>-5433.184122</td>
+      <td>-20.002102</td>
+      <td>-16.285725</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>CPU Computer Hardware</td>
+      <td>KNeighbors Regressor</td>
+      <td>GridSearchCV</td>
+      <td>19.361740</td>
+      <td>0.002593</td>
+      <td>-38.512308</td>
+      <td>-6.253947</td>
+      <td>-10602.459750</td>
+      <td>-539.176277</td>
+      <td>-16.602245</td>
+      <td>-1.875000</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>CPU Computer Hardware</td>
+      <td>KNeighbors Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.353434</td>
+      <td>0.003391</td>
+      <td>-36.171576</td>
+      <td>-6.503484</td>
+      <td>-9991.189085</td>
+      <td>-607.218113</td>
+      <td>-14.279647</td>
+      <td>-2.240000</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Boston Housing</td>
+      <td>Linear Regression</td>
+      <td>GridSearchCV</td>
+      <td>0.396877</td>
+      <td>0.002393</td>
+      <td>-4.113110</td>
+      <td>-3.284822</td>
+      <td>-36.027564</td>
+      <td>-22.536931</td>
+      <td>-3.055252</td>
+      <td>-2.324204</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Boston Housing</td>
+      <td>Linear Regression</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.340337</td>
+      <td>0.002793</td>
+      <td>-4.168781</td>
+      <td>-3.246751</td>
+      <td>-36.331988</td>
+      <td>-21.261948</td>
+      <td>-3.189876</td>
+      <td>-2.346504</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Boston Housing</td>
+      <td>Decision Tree Regressor</td>
+      <td>GridSearchCV</td>
+      <td>1.092709</td>
+      <td>0.002595</td>
+      <td>-4.096204</td>
+      <td>-2.568124</td>
+      <td>-37.005767</td>
+      <td>-13.667446</td>
+      <td>-2.992012</td>
+      <td>-1.945374</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Boston Housing</td>
+      <td>Decision Tree Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.287815</td>
+      <td>0.003590</td>
+      <td>-4.854993</td>
+      <td>-3.241973</td>
+      <td>-50.863759</td>
+      <td>-21.347992</td>
+      <td>-3.509816</td>
+      <td>-2.490523</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Boston Housing</td>
+      <td>Random Forest Regressor</td>
+      <td>GridSearchCV</td>
+      <td>86.677775</td>
+      <td>0.011969</td>
+      <td>-3.258022</td>
+      <td>-1.813521</td>
+      <td>-23.685948</td>
+      <td>-8.320821</td>
+      <td>-2.428940</td>
+      <td>-1.271837</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Boston Housing</td>
+      <td>Random Forest Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>21.866060</td>
+      <td>0.011570</td>
+      <td>-3.124259</td>
+      <td>-1.801424</td>
+      <td>-22.398007</td>
+      <td>-8.782758</td>
+      <td>-2.163268</td>
+      <td>-1.192196</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Boston Housing</td>
+      <td>Passive Aggressive Regressor</td>
+      <td>GridSearchCV</td>
+      <td>5.091253</td>
+      <td>0.001803</td>
+      <td>-4.437947</td>
+      <td>-3.466725</td>
+      <td>-44.460140</td>
+      <td>-28.154848</td>
+      <td>-3.070464</td>
+      <td>-2.389025</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Boston Housing</td>
+      <td>Passive Aggressive Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.451044</td>
+      <td>0.001994</td>
+      <td>-3.923328</td>
+      <td>-3.438559</td>
+      <td>-31.532209</td>
+      <td>-26.268354</td>
+      <td>-2.773009</td>
+      <td>-2.400396</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Boston Housing</td>
+      <td>KNeighbors Regressor</td>
+      <td>GridSearchCV</td>
+      <td>60.132532</td>
+      <td>0.003185</td>
+      <td>-4.541321</td>
+      <td>-0.954083</td>
+      <td>-45.424986</td>
+      <td>-5.775645</td>
+      <td>-3.307656</td>
+      <td>-0.612000</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Boston Housing</td>
+      <td>KNeighbors Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.242325</td>
+      <td>0.002790</td>
+      <td>-36.171576</td>
+      <td>-6.503484</td>
+      <td>-9991.189085</td>
+      <td>-607.218113</td>
+      <td>-14.279647</td>
+      <td>-2.240000</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Communities and Crime</td>
+      <td>Linear Regression</td>
+      <td>GridSearchCV</td>
+      <td>0.642881</td>
+      <td>0.002994</td>
+      <td>-0.097059</td>
+      <td>-0.090680</td>
+      <td>-0.019061</td>
+      <td>-0.016372</td>
+      <td>-0.067367</td>
+      <td>-0.063801</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Communities and Crime</td>
+      <td>Linear Regression</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.605977</td>
+      <td>0.002592</td>
+      <td>-0.097059</td>
+      <td>-0.090680</td>
+      <td>-0.019061</td>
+      <td>-0.016372</td>
+      <td>-0.067367</td>
+      <td>-0.063801</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Communities and Crime</td>
+      <td>Decision Tree Regressor</td>
+      <td>GridSearchCV</td>
+      <td>5.085370</td>
+      <td>0.003384</td>
+      <td>-0.105854</td>
+      <td>-0.098468</td>
+      <td>-0.024784</td>
+      <td>-0.020936</td>
+      <td>-0.064639</td>
+      <td>-0.062800</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Communities and Crime</td>
+      <td>Decision Tree Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.728799</td>
+      <td>0.003188</td>
+      <td>-0.105407</td>
+      <td>-0.100404</td>
+      <td>-0.023835</td>
+      <td>-0.021110</td>
+      <td>-0.065695</td>
+      <td>-0.063919</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Communities and Crime</td>
+      <td>Random Forest Regressor</td>
+      <td>GridSearchCV</td>
+      <td>1900.467549</td>
+      <td>0.012755</td>
+      <td>-0.094222</td>
+      <td>-0.070748</td>
+      <td>-0.019141</td>
+      <td>-0.010119</td>
+      <td>-0.060861</td>
+      <td>-0.048554</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Communities and Crime</td>
+      <td>Random Forest Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>788.586245</td>
+      <td>0.016459</td>
+      <td>-0.094029</td>
+      <td>-0.071414</td>
+      <td>-0.019068</td>
+      <td>-0.010481</td>
+      <td>-0.061397</td>
+      <td>-0.048450</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Communities and Crime</td>
+      <td>Passive Aggressive Regressor</td>
+      <td>GridSearchCV</td>
+      <td>7.450476</td>
+      <td>0.001995</td>
+      <td>-0.122910</td>
+      <td>-0.120445</td>
+      <td>-0.026251</td>
+      <td>-0.025627</td>
+      <td>-0.096858</td>
+      <td>-0.095137</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Communities and Crime</td>
+      <td>Passive Aggressive Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.707707</td>
+      <td>0.002194</td>
+      <td>-0.186856</td>
+      <td>-0.183272</td>
+      <td>-0.055264</td>
+      <td>-0.052019</td>
+      <td>-0.168311</td>
+      <td>-0.166743</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Communities and Crime</td>
+      <td>KNeighbors Regressor</td>
+      <td>GridSearchCV</td>
+      <td>5040.385410</td>
+      <td>0.095139</td>
+      <td>-0.096002</td>
+      <td>0.000000</td>
+      <td>-0.020439</td>
+      <td>0.000000</td>
+      <td>-0.061167</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Communities and Crime</td>
+      <td>KNeighbors Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>26.853987</td>
+      <td>0.090555</td>
+      <td>-0.097019</td>
+      <td>0.000000</td>
+      <td>-0.020932</td>
+      <td>0.000000</td>
+      <td>-0.060675</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>Linear Regression</td>
+      <td>GridSearchCV</td>
+      <td>0.273269</td>
+      <td>0.001596</td>
+      <td>-30.069332</td>
+      <td>-22.247234</td>
+      <td>-1369.483861</td>
+      <td>-742.057973</td>
+      <td>-30.178383</td>
+      <td>-19.266034</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Boston Housing</td>
+      <td>Linear Regression</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.242553</td>
+      <td>0.001796</td>
+      <td>-30.392753</td>
+      <td>-22.281217</td>
+      <td>-1388.546104</td>
+      <td>-746.548174</td>
+      <td>-30.462106</td>
+      <td>-19.571196</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>Decision Tree Regressor</td>
+      <td>GridSearchCV</td>
+      <td>0.748605</td>
+      <td>0.002398</td>
+      <td>-31.641361</td>
+      <td>-24.483430</td>
+      <td>-1434.012844</td>
+      <td>-885.633496</td>
+      <td>-28.869502</td>
+      <td>-21.825951</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>Decision Tree Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.203062</td>
+      <td>0.001994</td>
+      <td>-32.416899</td>
+      <td>-25.233118</td>
+      <td>-1450.311066</td>
+      <td>-934.852819</td>
+      <td>-28.959502</td>
+      <td>-22.649287</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>Random Forest Regressor</td>
+      <td>GridSearchCV</td>
+      <td>50.088679</td>
+      <td>0.010765</td>
+      <td>-30.315432</td>
+      <td>-18.553647</td>
+      <td>-1267.449873</td>
+      <td>-490.357933</td>
+      <td>-28.475640</td>
+      <td>-16.903014</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>Random Forest Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>11.428418</td>
+      <td>0.008395</td>
+      <td>-30.277292</td>
+      <td>-16.998222</td>
+      <td>-1276.630146</td>
+      <td>-416.452772</td>
+      <td>-29.820436</td>
+      <td>-15.176435</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>Passive Aggressive Regressor</td>
+      <td>GridSearchCV</td>
+      <td>3.710078</td>
+      <td>0.001397</td>
+      <td>-35.260313</td>
+      <td>-27.463599</td>
+      <td>-1719.480671</td>
+      <td>-1143.968635</td>
+      <td>-33.182113</td>
+      <td>-24.152233</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>Passive Aggressive Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.319546</td>
+      <td>0.001397</td>
+      <td>-30.198644</td>
+      <td>-26.134155</td>
+      <td>-1298.516063</td>
+      <td>-1062.032151</td>
+      <td>-27.544922</td>
+      <td>-22.046662</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>KNeighbors Regressor</td>
+      <td>GridSearchCV</td>
+      <td>29.423702</td>
+      <td>0.006587</td>
+      <td>-30.498101</td>
+      <td>-19.311749</td>
+      <td>-1317.355806</td>
+      <td>-670.872660</td>
+      <td>-25.919236</td>
+      <td>-17.211087</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Wisconsin Breast Cancer</td>
+      <td>KNeighbors Regressor</td>
+      <td>RandomizedSearchCV</td>
+      <td>0.303978</td>
+      <td>0.003805</td>
+      <td>-29.855540</td>
+      <td>0.000000</td>
+      <td>-1250.686630</td>
+      <td>0.000000</td>
+      <td>-27.348528</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>

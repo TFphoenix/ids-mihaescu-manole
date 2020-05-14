@@ -1,0 +1,1263 @@
+<style  type="text/css" >
+    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col6 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col10 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col5 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col7 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col8 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col7 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col7 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col5 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col3 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col4 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col6 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col8 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col10 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col6 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col8 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col9 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col10 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col3 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col4 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col9 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col6 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col8 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col10 {
+            : ;
+            background-color:  lightgreen;
+        }</style><table id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >dataset</th>        <th class="col_heading level0 col1" >model</th>        <th class="col_heading level0 col2" >search_strategy</th>        <th class="col_heading level0 col3" >fit_time</th>        <th class="col_heading level0 col4" >score_time</th>        <th class="col_heading level0 col5" >test_mean_absolute_error</th>        <th class="col_heading level0 col6" >train_mean_absolute_error</th>        <th class="col_heading level0 col7" >test_mean_squared_error</th>        <th class="col_heading level0 col8" >train_mean_squared_error</th>        <th class="col_heading level0 col9" >test_median_absolute_error</th>        <th class="col_heading level0 col10" >train_median_absolute_error</th>    </tr></thead><tbody>
+                <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row0" class="row_heading level0 row0" >0</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col0" class="data row0 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col1" class="data row0 col1" >Linear Regression</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col2" class="data row0 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col3" class="data row0 col3" >0.494645</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col4" class="data row0 col4" >0.003164</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col5" class="data row0 col5" >43.378262</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col6" class="data row0 col6" >36.695674</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col7" class="data row0 col7" >6383.656697</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col8" class="data row0 col8" >3243.698611</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col9" class="data row0 col9" >27.053792</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row0_col10" class="data row0 col10" >25.581576</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row1" class="row_heading level0 row1" >1</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col0" class="data row1 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col1" class="data row1 col1" >Linear Regression</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col2" class="data row1 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col3" class="data row1 col3" >0.373086</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col4" class="data row1 col4" >0.002528</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col5" class="data row1 col5" >43.378262</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col6" class="data row1 col6" >36.695674</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col7" class="data row1 col7" >6383.656697</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col8" class="data row1 col8" >3243.698611</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col9" class="data row1 col9" >27.053792</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row1_col10" class="data row1 col10" >25.581576</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row2" class="row_heading level0 row2" >2</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col0" class="data row2 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col1" class="data row2 col1" >Decision Tree Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col2" class="data row2 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col3" class="data row2 col3" >0.958233</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col4" class="data row2 col4" >0.001999</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col5" class="data row2 col5" >45.505979</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col6" class="data row2 col6" >31.657317</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col7" class="data row2 col7" >11405.463714</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col8" class="data row2 col8" >5361.841284</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col9" class="data row2 col9" >21.187523</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row2_col10" class="data row2 col10" >15.768125</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row3" class="row_heading level0 row3" >3</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col0" class="data row3 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col1" class="data row3 col1" >Decision Tree Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col2" class="data row3 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col3" class="data row3 col3" >0.356394</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col4" class="data row3 col4" >0.004800</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col5" class="data row3 col5" >43.919487</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col6" class="data row3 col6" >27.490610</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col7" class="data row3 col7" >9889.499927</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col8" class="data row3 col8" >1806.945175</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col9" class="data row3 col9" >23.425880</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row3_col10" class="data row3 col10" >16.874432</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row4" class="row_heading level0 row4" >4</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col0" class="data row4 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col1" class="data row4 col1" >Random Forest Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col2" class="data row4 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col3" class="data row4 col3" >52.488939</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col4" class="data row4 col4" >0.012810</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col5" class="data row4 col5" >38.922444</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col6" class="data row4 col6" >24.902618</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col7" class="data row4 col7" >9417.990893</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col8" class="data row4 col8" >3037.632457</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col9" class="data row4 col9" >17.522924</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row4_col10" class="data row4 col10" >12.382659</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row5" class="row_heading level0 row5" >5</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col0" class="data row5 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col1" class="data row5 col1" >Random Forest Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col2" class="data row5 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col3" class="data row5 col3" >8.788756</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col4" class="data row5 col4" >0.012168</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col5" class="data row5 col5" >40.222642</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col6" class="data row5 col6" >27.846249</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col7" class="data row5 col7" >10236.169549</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col8" class="data row5 col8" >4676.394811</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col9" class="data row5 col9" >19.715973</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row5_col10" class="data row5 col10" >10.952127</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row6" class="row_heading level0 row6" >6</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col0" class="data row6 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col1" class="data row6 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col2" class="data row6 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col3" class="data row6 col3" >9.592107</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col4" class="data row6 col4" >0.002195</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col5" class="data row6 col5" >36.982518</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col6" class="data row6 col6" >32.891312</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col7" class="data row6 col7" >6258.945907</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col8" class="data row6 col8" >5359.098181</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col9" class="data row6 col9" >19.991516</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row6_col10" class="data row6 col10" >15.683214</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row7" class="row_heading level0 row7" >7</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col0" class="data row7 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col1" class="data row7 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col2" class="data row7 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col3" class="data row7 col3" >0.879081</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col4" class="data row7 col4" >0.002195</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col5" class="data row7 col5" >36.282159</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col6" class="data row7 col6" >33.085869</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col7" class="data row7 col7" >6057.105549</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col8" class="data row7 col8" >5433.184122</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col9" class="data row7 col9" >20.002102</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row7_col10" class="data row7 col10" >16.285725</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row8" class="row_heading level0 row8" >8</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col0" class="data row8 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col1" class="data row8 col1" >KNeighbors Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col2" class="data row8 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col3" class="data row8 col3" >19.361740</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col4" class="data row8 col4" >0.002593</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col5" class="data row8 col5" >38.512308</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col6" class="data row8 col6" >6.253947</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col7" class="data row8 col7" >10602.459750</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col8" class="data row8 col8" >539.176277</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col9" class="data row8 col9" >16.602245</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row8_col10" class="data row8 col10" >1.875000</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row9" class="row_heading level0 row9" >9</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col0" class="data row9 col0" >CPU Computer Hardware</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col1" class="data row9 col1" >KNeighbors Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col2" class="data row9 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col3" class="data row9 col3" >0.353434</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col4" class="data row9 col4" >0.003391</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col5" class="data row9 col5" >36.171576</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col6" class="data row9 col6" >6.503484</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col7" class="data row9 col7" >9991.189085</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col8" class="data row9 col8" >607.218113</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col9" class="data row9 col9" >14.279647</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row9_col10" class="data row9 col10" >2.240000</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row10" class="row_heading level0 row10" >10</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col0" class="data row10 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col1" class="data row10 col1" >Linear Regression</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col2" class="data row10 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col3" class="data row10 col3" >0.396877</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col4" class="data row10 col4" >0.002393</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col5" class="data row10 col5" >4.113110</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col6" class="data row10 col6" >3.284822</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col7" class="data row10 col7" >36.027564</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col8" class="data row10 col8" >22.536931</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col9" class="data row10 col9" >3.055252</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row10_col10" class="data row10 col10" >2.324204</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row11" class="row_heading level0 row11" >11</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col0" class="data row11 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col1" class="data row11 col1" >Linear Regression</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col2" class="data row11 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col3" class="data row11 col3" >0.340337</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col4" class="data row11 col4" >0.002793</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col5" class="data row11 col5" >4.168781</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col6" class="data row11 col6" >3.246751</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col7" class="data row11 col7" >36.331988</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col8" class="data row11 col8" >21.261948</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col9" class="data row11 col9" >3.189876</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row11_col10" class="data row11 col10" >2.346504</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row12" class="row_heading level0 row12" >12</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col0" class="data row12 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col1" class="data row12 col1" >Decision Tree Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col2" class="data row12 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col3" class="data row12 col3" >1.092709</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col4" class="data row12 col4" >0.002595</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col5" class="data row12 col5" >4.096204</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col6" class="data row12 col6" >2.568124</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col7" class="data row12 col7" >37.005767</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col8" class="data row12 col8" >13.667446</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col9" class="data row12 col9" >2.992012</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row12_col10" class="data row12 col10" >1.945374</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row13" class="row_heading level0 row13" >13</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col0" class="data row13 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col1" class="data row13 col1" >Decision Tree Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col2" class="data row13 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col3" class="data row13 col3" >0.287815</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col4" class="data row13 col4" >0.003590</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col5" class="data row13 col5" >4.854993</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col6" class="data row13 col6" >3.241973</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col7" class="data row13 col7" >50.863759</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col8" class="data row13 col8" >21.347992</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col9" class="data row13 col9" >3.509816</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row13_col10" class="data row13 col10" >2.490523</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row14" class="row_heading level0 row14" >14</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col0" class="data row14 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col1" class="data row14 col1" >Random Forest Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col2" class="data row14 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col3" class="data row14 col3" >86.677775</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col4" class="data row14 col4" >0.011969</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col5" class="data row14 col5" >3.258022</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col6" class="data row14 col6" >1.813521</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col7" class="data row14 col7" >23.685948</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col8" class="data row14 col8" >8.320821</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col9" class="data row14 col9" >2.428940</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row14_col10" class="data row14 col10" >1.271837</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row15" class="row_heading level0 row15" >15</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col0" class="data row15 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col1" class="data row15 col1" >Random Forest Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col2" class="data row15 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col3" class="data row15 col3" >21.866060</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col4" class="data row15 col4" >0.011570</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col5" class="data row15 col5" >3.124259</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col6" class="data row15 col6" >1.801424</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col7" class="data row15 col7" >22.398007</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col8" class="data row15 col8" >8.782758</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col9" class="data row15 col9" >2.163268</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row15_col10" class="data row15 col10" >1.192196</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row16" class="row_heading level0 row16" >16</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col0" class="data row16 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col1" class="data row16 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col2" class="data row16 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col3" class="data row16 col3" >5.091253</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col4" class="data row16 col4" >0.001803</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col5" class="data row16 col5" >4.437947</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col6" class="data row16 col6" >3.466725</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col7" class="data row16 col7" >44.460140</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col8" class="data row16 col8" >28.154848</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col9" class="data row16 col9" >3.070464</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row16_col10" class="data row16 col10" >2.389025</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row17" class="row_heading level0 row17" >17</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col0" class="data row17 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col1" class="data row17 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col2" class="data row17 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col3" class="data row17 col3" >0.451044</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col4" class="data row17 col4" >0.001994</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col5" class="data row17 col5" >3.923328</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col6" class="data row17 col6" >3.438559</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col7" class="data row17 col7" >31.532209</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col8" class="data row17 col8" >26.268354</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col9" class="data row17 col9" >2.773009</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row17_col10" class="data row17 col10" >2.400396</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row18" class="row_heading level0 row18" >18</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col0" class="data row18 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col1" class="data row18 col1" >KNeighbors Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col2" class="data row18 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col3" class="data row18 col3" >60.132532</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col4" class="data row18 col4" >0.003185</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col5" class="data row18 col5" >4.541321</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col6" class="data row18 col6" >0.954083</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col7" class="data row18 col7" >45.424986</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col8" class="data row18 col8" >5.775645</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col9" class="data row18 col9" >3.307656</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row18_col10" class="data row18 col10" >0.612000</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row19" class="row_heading level0 row19" >19</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col0" class="data row19 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col1" class="data row19 col1" >KNeighbors Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col2" class="data row19 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col3" class="data row19 col3" >0.242325</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col4" class="data row19 col4" >0.002790</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col5" class="data row19 col5" >36.171576</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col6" class="data row19 col6" >6.503484</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col7" class="data row19 col7" >9991.189085</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col8" class="data row19 col8" >607.218113</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col9" class="data row19 col9" >14.279647</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row19_col10" class="data row19 col10" >2.240000</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row20" class="row_heading level0 row20" >20</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col0" class="data row20 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col1" class="data row20 col1" >Linear Regression</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col2" class="data row20 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col3" class="data row20 col3" >0.642881</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col4" class="data row20 col4" >0.002994</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col5" class="data row20 col5" >0.097059</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col6" class="data row20 col6" >0.090680</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col7" class="data row20 col7" >0.019061</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col8" class="data row20 col8" >0.016372</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col9" class="data row20 col9" >0.067367</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row20_col10" class="data row20 col10" >0.063801</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row21" class="row_heading level0 row21" >21</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col0" class="data row21 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col1" class="data row21 col1" >Linear Regression</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col2" class="data row21 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col3" class="data row21 col3" >0.605977</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col4" class="data row21 col4" >0.002592</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col5" class="data row21 col5" >0.097059</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col6" class="data row21 col6" >0.090680</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col7" class="data row21 col7" >0.019061</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col8" class="data row21 col8" >0.016372</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col9" class="data row21 col9" >0.067367</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row21_col10" class="data row21 col10" >0.063801</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row22" class="row_heading level0 row22" >22</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col0" class="data row22 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col1" class="data row22 col1" >Decision Tree Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col2" class="data row22 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col3" class="data row22 col3" >5.085370</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col4" class="data row22 col4" >0.003384</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col5" class="data row22 col5" >0.105854</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col6" class="data row22 col6" >0.098468</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col7" class="data row22 col7" >0.024784</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col8" class="data row22 col8" >0.020936</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col9" class="data row22 col9" >0.064639</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row22_col10" class="data row22 col10" >0.062800</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row23" class="row_heading level0 row23" >23</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col0" class="data row23 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col1" class="data row23 col1" >Decision Tree Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col2" class="data row23 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col3" class="data row23 col3" >0.728799</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col4" class="data row23 col4" >0.003188</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col5" class="data row23 col5" >0.105407</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col6" class="data row23 col6" >0.100404</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col7" class="data row23 col7" >0.023835</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col8" class="data row23 col8" >0.021110</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col9" class="data row23 col9" >0.065695</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row23_col10" class="data row23 col10" >0.063919</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row24" class="row_heading level0 row24" >24</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col0" class="data row24 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col1" class="data row24 col1" >Random Forest Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col2" class="data row24 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col3" class="data row24 col3" >1900.467549</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col4" class="data row24 col4" >0.012755</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col5" class="data row24 col5" >0.094222</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col6" class="data row24 col6" >0.070748</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col7" class="data row24 col7" >0.019141</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col8" class="data row24 col8" >0.010119</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col9" class="data row24 col9" >0.060861</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row24_col10" class="data row24 col10" >0.048554</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row25" class="row_heading level0 row25" >25</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col0" class="data row25 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col1" class="data row25 col1" >Random Forest Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col2" class="data row25 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col3" class="data row25 col3" >788.586245</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col4" class="data row25 col4" >0.016459</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col5" class="data row25 col5" >0.094029</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col6" class="data row25 col6" >0.071414</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col7" class="data row25 col7" >0.019068</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col8" class="data row25 col8" >0.010481</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col9" class="data row25 col9" >0.061397</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row25_col10" class="data row25 col10" >0.048450</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row26" class="row_heading level0 row26" >26</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col0" class="data row26 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col1" class="data row26 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col2" class="data row26 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col3" class="data row26 col3" >7.450476</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col4" class="data row26 col4" >0.001995</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col5" class="data row26 col5" >0.122910</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col6" class="data row26 col6" >0.120445</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col7" class="data row26 col7" >0.026251</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col8" class="data row26 col8" >0.025627</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col9" class="data row26 col9" >0.096858</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row26_col10" class="data row26 col10" >0.095137</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row27" class="row_heading level0 row27" >27</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col0" class="data row27 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col1" class="data row27 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col2" class="data row27 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col3" class="data row27 col3" >0.707707</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col4" class="data row27 col4" >0.002194</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col5" class="data row27 col5" >0.186856</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col6" class="data row27 col6" >0.183272</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col7" class="data row27 col7" >0.055264</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col8" class="data row27 col8" >0.052019</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col9" class="data row27 col9" >0.168311</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row27_col10" class="data row27 col10" >0.166743</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row28" class="row_heading level0 row28" >28</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col0" class="data row28 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col1" class="data row28 col1" >KNeighbors Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col2" class="data row28 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col3" class="data row28 col3" >5040.385410</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col4" class="data row28 col4" >0.095139</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col5" class="data row28 col5" >0.096002</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col6" class="data row28 col6" >0.000000</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col7" class="data row28 col7" >0.020439</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col8" class="data row28 col8" >0.000000</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col9" class="data row28 col9" >0.061167</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row28_col10" class="data row28 col10" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row29" class="row_heading level0 row29" >29</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col0" class="data row29 col0" >Communities and Crime</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col1" class="data row29 col1" >KNeighbors Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col2" class="data row29 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col3" class="data row29 col3" >26.853987</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col4" class="data row29 col4" >0.090555</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col5" class="data row29 col5" >0.097019</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col6" class="data row29 col6" >0.000000</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col7" class="data row29 col7" >0.020932</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col8" class="data row29 col8" >0.000000</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col9" class="data row29 col9" >0.060675</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row29_col10" class="data row29 col10" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row30" class="row_heading level0 row30" >30</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col0" class="data row30 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col1" class="data row30 col1" >Linear Regression</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col2" class="data row30 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col3" class="data row30 col3" >0.273269</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col4" class="data row30 col4" >0.001596</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col5" class="data row30 col5" >30.069332</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col6" class="data row30 col6" >22.247234</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col7" class="data row30 col7" >1369.483861</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col8" class="data row30 col8" >742.057973</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col9" class="data row30 col9" >30.178383</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row30_col10" class="data row30 col10" >19.266034</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row31" class="row_heading level0 row31" >31</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col0" class="data row31 col0" >Boston Housing</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col1" class="data row31 col1" >Linear Regression</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col2" class="data row31 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col3" class="data row31 col3" >0.242553</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col4" class="data row31 col4" >0.001796</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col5" class="data row31 col5" >30.392753</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col6" class="data row31 col6" >22.281217</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col7" class="data row31 col7" >1388.546104</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col8" class="data row31 col8" >746.548174</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col9" class="data row31 col9" >30.462106</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row31_col10" class="data row31 col10" >19.571196</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row32" class="row_heading level0 row32" >32</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col0" class="data row32 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col1" class="data row32 col1" >Decision Tree Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col2" class="data row32 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col3" class="data row32 col3" >0.748605</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col4" class="data row32 col4" >0.002398</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col5" class="data row32 col5" >31.641361</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col6" class="data row32 col6" >24.483430</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col7" class="data row32 col7" >1434.012844</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col8" class="data row32 col8" >885.633496</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col9" class="data row32 col9" >28.869502</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row32_col10" class="data row32 col10" >21.825951</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row33" class="row_heading level0 row33" >33</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col0" class="data row33 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col1" class="data row33 col1" >Decision Tree Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col2" class="data row33 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col3" class="data row33 col3" >0.203062</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col4" class="data row33 col4" >0.001994</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col5" class="data row33 col5" >32.416899</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col6" class="data row33 col6" >25.233118</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col7" class="data row33 col7" >1450.311066</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col8" class="data row33 col8" >934.852819</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col9" class="data row33 col9" >28.959502</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row33_col10" class="data row33 col10" >22.649287</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row34" class="row_heading level0 row34" >34</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col0" class="data row34 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col1" class="data row34 col1" >Random Forest Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col2" class="data row34 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col3" class="data row34 col3" >50.088679</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col4" class="data row34 col4" >0.010765</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col5" class="data row34 col5" >30.315432</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col6" class="data row34 col6" >18.553647</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col7" class="data row34 col7" >1267.449873</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col8" class="data row34 col8" >490.357933</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col9" class="data row34 col9" >28.475640</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row34_col10" class="data row34 col10" >16.903014</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row35" class="row_heading level0 row35" >35</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col0" class="data row35 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col1" class="data row35 col1" >Random Forest Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col2" class="data row35 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col3" class="data row35 col3" >11.428418</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col4" class="data row35 col4" >0.008395</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col5" class="data row35 col5" >30.277292</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col6" class="data row35 col6" >16.998222</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col7" class="data row35 col7" >1276.630146</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col8" class="data row35 col8" >416.452772</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col9" class="data row35 col9" >29.820436</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row35_col10" class="data row35 col10" >15.176435</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row36" class="row_heading level0 row36" >36</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col0" class="data row36 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col1" class="data row36 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col2" class="data row36 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col3" class="data row36 col3" >3.710078</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col4" class="data row36 col4" >0.001397</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col5" class="data row36 col5" >35.260313</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col6" class="data row36 col6" >27.463599</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col7" class="data row36 col7" >1719.480671</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col8" class="data row36 col8" >1143.968635</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col9" class="data row36 col9" >33.182113</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row36_col10" class="data row36 col10" >24.152233</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row37" class="row_heading level0 row37" >37</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col0" class="data row37 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col1" class="data row37 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col2" class="data row37 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col3" class="data row37 col3" >0.319546</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col4" class="data row37 col4" >0.001397</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col5" class="data row37 col5" >30.198644</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col6" class="data row37 col6" >26.134155</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col7" class="data row37 col7" >1298.516063</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col8" class="data row37 col8" >1062.032151</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col9" class="data row37 col9" >27.544922</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row37_col10" class="data row37 col10" >22.046662</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row38" class="row_heading level0 row38" >38</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col0" class="data row38 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col1" class="data row38 col1" >KNeighbors Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col2" class="data row38 col2" >GridSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col3" class="data row38 col3" >29.423702</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col4" class="data row38 col4" >0.006587</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col5" class="data row38 col5" >30.498101</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col6" class="data row38 col6" >19.311749</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col7" class="data row38 col7" >1317.355806</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col8" class="data row38 col8" >670.872660</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col9" class="data row38 col9" >25.919236</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row38_col10" class="data row38 col10" >17.211087</td>
+            </tr>
+            <tr>
+                        <th id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55level0_row39" class="row_heading level0 row39" >39</th>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col0" class="data row39 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col1" class="data row39 col1" >KNeighbors Regressor</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col2" class="data row39 col2" >RandomizedSearchCV</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col3" class="data row39 col3" >0.303978</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col4" class="data row39 col4" >0.003805</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col5" class="data row39 col5" >29.855540</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col6" class="data row39 col6" >0.000000</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col7" class="data row39 col7" >1250.686630</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col8" class="data row39 col8" >0.000000</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col9" class="data row39 col9" >27.348528</td>
+                        <td id="T_54175d0c_95d2_11ea_b7d1_144f8ad4fd55row39_col10" class="data row39 col10" >0.000000</td>
+            </tr>
+    </tbody></table><style  type="text/css" >
+    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col6 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col10 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col5 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col7 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col8 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col7 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col7 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col5 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col3 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col4 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col6 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col8 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col10 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col6 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col8 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col9 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col10 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col3 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col4 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col9 {
+            background-color:  lightcoral;
+            : ;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col6 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col8 {
+            : ;
+            background-color:  lightgreen;
+        }    #T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col10 {
+            : ;
+            background-color:  lightgreen;
+        }</style><table id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >dataset</th>        <th class="col_heading level0 col1" >model</th>        <th class="col_heading level0 col2" >search_strategy</th>        <th class="col_heading level0 col3" >fit_time</th>        <th class="col_heading level0 col4" >score_time</th>        <th class="col_heading level0 col5" >test_mean_absolute_error</th>        <th class="col_heading level0 col6" >train_mean_absolute_error</th>        <th class="col_heading level0 col7" >test_mean_squared_error</th>        <th class="col_heading level0 col8" >train_mean_squared_error</th>        <th class="col_heading level0 col9" >test_median_absolute_error</th>        <th class="col_heading level0 col10" >train_median_absolute_error</th>    </tr></thead><tbody>
+                <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row0" class="row_heading level0 row0" >0</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col0" class="data row0 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col1" class="data row0 col1" >Linear Regression</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col2" class="data row0 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col3" class="data row0 col3" >0.494645</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col4" class="data row0 col4" >0.003164</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col5" class="data row0 col5" >43.378262</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col6" class="data row0 col6" >36.695674</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col7" class="data row0 col7" >6383.656697</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col8" class="data row0 col8" >3243.698611</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col9" class="data row0 col9" >27.053792</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row0_col10" class="data row0 col10" >25.581576</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row1" class="row_heading level0 row1" >1</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col0" class="data row1 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col1" class="data row1 col1" >Linear Regression</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col2" class="data row1 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col3" class="data row1 col3" >0.373086</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col4" class="data row1 col4" >0.002528</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col5" class="data row1 col5" >43.378262</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col6" class="data row1 col6" >36.695674</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col7" class="data row1 col7" >6383.656697</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col8" class="data row1 col8" >3243.698611</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col9" class="data row1 col9" >27.053792</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row1_col10" class="data row1 col10" >25.581576</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row2" class="row_heading level0 row2" >2</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col0" class="data row2 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col1" class="data row2 col1" >Decision Tree Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col2" class="data row2 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col3" class="data row2 col3" >0.958233</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col4" class="data row2 col4" >0.001999</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col5" class="data row2 col5" >45.505979</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col6" class="data row2 col6" >31.657317</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col7" class="data row2 col7" >11405.463714</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col8" class="data row2 col8" >5361.841284</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col9" class="data row2 col9" >21.187523</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row2_col10" class="data row2 col10" >15.768125</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row3" class="row_heading level0 row3" >3</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col0" class="data row3 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col1" class="data row3 col1" >Decision Tree Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col2" class="data row3 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col3" class="data row3 col3" >0.356394</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col4" class="data row3 col4" >0.004800</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col5" class="data row3 col5" >43.919487</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col6" class="data row3 col6" >27.490610</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col7" class="data row3 col7" >9889.499927</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col8" class="data row3 col8" >1806.945175</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col9" class="data row3 col9" >23.425880</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row3_col10" class="data row3 col10" >16.874432</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row4" class="row_heading level0 row4" >4</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col0" class="data row4 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col1" class="data row4 col1" >Random Forest Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col2" class="data row4 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col3" class="data row4 col3" >52.488939</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col4" class="data row4 col4" >0.012810</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col5" class="data row4 col5" >38.922444</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col6" class="data row4 col6" >24.902618</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col7" class="data row4 col7" >9417.990893</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col8" class="data row4 col8" >3037.632457</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col9" class="data row4 col9" >17.522924</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row4_col10" class="data row4 col10" >12.382659</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row5" class="row_heading level0 row5" >5</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col0" class="data row5 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col1" class="data row5 col1" >Random Forest Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col2" class="data row5 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col3" class="data row5 col3" >8.788756</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col4" class="data row5 col4" >0.012168</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col5" class="data row5 col5" >40.222642</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col6" class="data row5 col6" >27.846249</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col7" class="data row5 col7" >10236.169549</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col8" class="data row5 col8" >4676.394811</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col9" class="data row5 col9" >19.715973</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row5_col10" class="data row5 col10" >10.952127</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row6" class="row_heading level0 row6" >6</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col0" class="data row6 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col1" class="data row6 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col2" class="data row6 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col3" class="data row6 col3" >9.592107</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col4" class="data row6 col4" >0.002195</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col5" class="data row6 col5" >36.982518</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col6" class="data row6 col6" >32.891312</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col7" class="data row6 col7" >6258.945907</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col8" class="data row6 col8" >5359.098181</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col9" class="data row6 col9" >19.991516</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row6_col10" class="data row6 col10" >15.683214</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row7" class="row_heading level0 row7" >7</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col0" class="data row7 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col1" class="data row7 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col2" class="data row7 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col3" class="data row7 col3" >0.879081</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col4" class="data row7 col4" >0.002195</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col5" class="data row7 col5" >36.282159</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col6" class="data row7 col6" >33.085869</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col7" class="data row7 col7" >6057.105549</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col8" class="data row7 col8" >5433.184122</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col9" class="data row7 col9" >20.002102</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row7_col10" class="data row7 col10" >16.285725</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row8" class="row_heading level0 row8" >8</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col0" class="data row8 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col1" class="data row8 col1" >KNeighbors Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col2" class="data row8 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col3" class="data row8 col3" >19.361740</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col4" class="data row8 col4" >0.002593</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col5" class="data row8 col5" >38.512308</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col6" class="data row8 col6" >6.253947</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col7" class="data row8 col7" >10602.459750</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col8" class="data row8 col8" >539.176277</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col9" class="data row8 col9" >16.602245</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row8_col10" class="data row8 col10" >1.875000</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row9" class="row_heading level0 row9" >9</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col0" class="data row9 col0" >CPU Computer Hardware</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col1" class="data row9 col1" >KNeighbors Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col2" class="data row9 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col3" class="data row9 col3" >0.353434</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col4" class="data row9 col4" >0.003391</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col5" class="data row9 col5" >36.171576</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col6" class="data row9 col6" >6.503484</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col7" class="data row9 col7" >9991.189085</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col8" class="data row9 col8" >607.218113</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col9" class="data row9 col9" >14.279647</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row9_col10" class="data row9 col10" >2.240000</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row10" class="row_heading level0 row10" >10</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col0" class="data row10 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col1" class="data row10 col1" >Linear Regression</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col2" class="data row10 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col3" class="data row10 col3" >0.396877</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col4" class="data row10 col4" >0.002393</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col5" class="data row10 col5" >4.113110</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col6" class="data row10 col6" >3.284822</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col7" class="data row10 col7" >36.027564</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col8" class="data row10 col8" >22.536931</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col9" class="data row10 col9" >3.055252</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row10_col10" class="data row10 col10" >2.324204</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row11" class="row_heading level0 row11" >11</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col0" class="data row11 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col1" class="data row11 col1" >Linear Regression</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col2" class="data row11 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col3" class="data row11 col3" >0.340337</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col4" class="data row11 col4" >0.002793</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col5" class="data row11 col5" >4.168781</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col6" class="data row11 col6" >3.246751</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col7" class="data row11 col7" >36.331988</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col8" class="data row11 col8" >21.261948</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col9" class="data row11 col9" >3.189876</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row11_col10" class="data row11 col10" >2.346504</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row12" class="row_heading level0 row12" >12</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col0" class="data row12 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col1" class="data row12 col1" >Decision Tree Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col2" class="data row12 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col3" class="data row12 col3" >1.092709</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col4" class="data row12 col4" >0.002595</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col5" class="data row12 col5" >4.096204</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col6" class="data row12 col6" >2.568124</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col7" class="data row12 col7" >37.005767</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col8" class="data row12 col8" >13.667446</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col9" class="data row12 col9" >2.992012</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row12_col10" class="data row12 col10" >1.945374</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row13" class="row_heading level0 row13" >13</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col0" class="data row13 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col1" class="data row13 col1" >Decision Tree Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col2" class="data row13 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col3" class="data row13 col3" >0.287815</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col4" class="data row13 col4" >0.003590</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col5" class="data row13 col5" >4.854993</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col6" class="data row13 col6" >3.241973</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col7" class="data row13 col7" >50.863759</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col8" class="data row13 col8" >21.347992</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col9" class="data row13 col9" >3.509816</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row13_col10" class="data row13 col10" >2.490523</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row14" class="row_heading level0 row14" >14</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col0" class="data row14 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col1" class="data row14 col1" >Random Forest Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col2" class="data row14 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col3" class="data row14 col3" >86.677775</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col4" class="data row14 col4" >0.011969</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col5" class="data row14 col5" >3.258022</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col6" class="data row14 col6" >1.813521</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col7" class="data row14 col7" >23.685948</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col8" class="data row14 col8" >8.320821</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col9" class="data row14 col9" >2.428940</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row14_col10" class="data row14 col10" >1.271837</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row15" class="row_heading level0 row15" >15</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col0" class="data row15 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col1" class="data row15 col1" >Random Forest Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col2" class="data row15 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col3" class="data row15 col3" >21.866060</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col4" class="data row15 col4" >0.011570</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col5" class="data row15 col5" >3.124259</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col6" class="data row15 col6" >1.801424</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col7" class="data row15 col7" >22.398007</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col8" class="data row15 col8" >8.782758</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col9" class="data row15 col9" >2.163268</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row15_col10" class="data row15 col10" >1.192196</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row16" class="row_heading level0 row16" >16</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col0" class="data row16 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col1" class="data row16 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col2" class="data row16 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col3" class="data row16 col3" >5.091253</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col4" class="data row16 col4" >0.001803</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col5" class="data row16 col5" >4.437947</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col6" class="data row16 col6" >3.466725</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col7" class="data row16 col7" >44.460140</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col8" class="data row16 col8" >28.154848</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col9" class="data row16 col9" >3.070464</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row16_col10" class="data row16 col10" >2.389025</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row17" class="row_heading level0 row17" >17</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col0" class="data row17 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col1" class="data row17 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col2" class="data row17 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col3" class="data row17 col3" >0.451044</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col4" class="data row17 col4" >0.001994</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col5" class="data row17 col5" >3.923328</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col6" class="data row17 col6" >3.438559</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col7" class="data row17 col7" >31.532209</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col8" class="data row17 col8" >26.268354</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col9" class="data row17 col9" >2.773009</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row17_col10" class="data row17 col10" >2.400396</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row18" class="row_heading level0 row18" >18</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col0" class="data row18 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col1" class="data row18 col1" >KNeighbors Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col2" class="data row18 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col3" class="data row18 col3" >60.132532</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col4" class="data row18 col4" >0.003185</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col5" class="data row18 col5" >4.541321</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col6" class="data row18 col6" >0.954083</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col7" class="data row18 col7" >45.424986</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col8" class="data row18 col8" >5.775645</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col9" class="data row18 col9" >3.307656</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row18_col10" class="data row18 col10" >0.612000</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row19" class="row_heading level0 row19" >19</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col0" class="data row19 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col1" class="data row19 col1" >KNeighbors Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col2" class="data row19 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col3" class="data row19 col3" >0.242325</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col4" class="data row19 col4" >0.002790</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col5" class="data row19 col5" >36.171576</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col6" class="data row19 col6" >6.503484</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col7" class="data row19 col7" >9991.189085</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col8" class="data row19 col8" >607.218113</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col9" class="data row19 col9" >14.279647</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row19_col10" class="data row19 col10" >2.240000</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row20" class="row_heading level0 row20" >20</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col0" class="data row20 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col1" class="data row20 col1" >Linear Regression</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col2" class="data row20 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col3" class="data row20 col3" >0.642881</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col4" class="data row20 col4" >0.002994</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col5" class="data row20 col5" >0.097059</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col6" class="data row20 col6" >0.090680</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col7" class="data row20 col7" >0.019061</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col8" class="data row20 col8" >0.016372</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col9" class="data row20 col9" >0.067367</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row20_col10" class="data row20 col10" >0.063801</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row21" class="row_heading level0 row21" >21</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col0" class="data row21 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col1" class="data row21 col1" >Linear Regression</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col2" class="data row21 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col3" class="data row21 col3" >0.605977</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col4" class="data row21 col4" >0.002592</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col5" class="data row21 col5" >0.097059</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col6" class="data row21 col6" >0.090680</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col7" class="data row21 col7" >0.019061</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col8" class="data row21 col8" >0.016372</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col9" class="data row21 col9" >0.067367</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row21_col10" class="data row21 col10" >0.063801</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row22" class="row_heading level0 row22" >22</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col0" class="data row22 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col1" class="data row22 col1" >Decision Tree Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col2" class="data row22 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col3" class="data row22 col3" >5.085370</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col4" class="data row22 col4" >0.003384</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col5" class="data row22 col5" >0.105854</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col6" class="data row22 col6" >0.098468</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col7" class="data row22 col7" >0.024784</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col8" class="data row22 col8" >0.020936</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col9" class="data row22 col9" >0.064639</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row22_col10" class="data row22 col10" >0.062800</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row23" class="row_heading level0 row23" >23</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col0" class="data row23 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col1" class="data row23 col1" >Decision Tree Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col2" class="data row23 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col3" class="data row23 col3" >0.728799</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col4" class="data row23 col4" >0.003188</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col5" class="data row23 col5" >0.105407</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col6" class="data row23 col6" >0.100404</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col7" class="data row23 col7" >0.023835</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col8" class="data row23 col8" >0.021110</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col9" class="data row23 col9" >0.065695</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row23_col10" class="data row23 col10" >0.063919</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row24" class="row_heading level0 row24" >24</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col0" class="data row24 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col1" class="data row24 col1" >Random Forest Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col2" class="data row24 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col3" class="data row24 col3" >1900.467549</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col4" class="data row24 col4" >0.012755</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col5" class="data row24 col5" >0.094222</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col6" class="data row24 col6" >0.070748</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col7" class="data row24 col7" >0.019141</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col8" class="data row24 col8" >0.010119</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col9" class="data row24 col9" >0.060861</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row24_col10" class="data row24 col10" >0.048554</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row25" class="row_heading level0 row25" >25</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col0" class="data row25 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col1" class="data row25 col1" >Random Forest Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col2" class="data row25 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col3" class="data row25 col3" >788.586245</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col4" class="data row25 col4" >0.016459</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col5" class="data row25 col5" >0.094029</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col6" class="data row25 col6" >0.071414</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col7" class="data row25 col7" >0.019068</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col8" class="data row25 col8" >0.010481</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col9" class="data row25 col9" >0.061397</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row25_col10" class="data row25 col10" >0.048450</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row26" class="row_heading level0 row26" >26</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col0" class="data row26 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col1" class="data row26 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col2" class="data row26 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col3" class="data row26 col3" >7.450476</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col4" class="data row26 col4" >0.001995</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col5" class="data row26 col5" >0.122910</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col6" class="data row26 col6" >0.120445</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col7" class="data row26 col7" >0.026251</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col8" class="data row26 col8" >0.025627</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col9" class="data row26 col9" >0.096858</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row26_col10" class="data row26 col10" >0.095137</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row27" class="row_heading level0 row27" >27</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col0" class="data row27 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col1" class="data row27 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col2" class="data row27 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col3" class="data row27 col3" >0.707707</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col4" class="data row27 col4" >0.002194</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col5" class="data row27 col5" >0.186856</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col6" class="data row27 col6" >0.183272</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col7" class="data row27 col7" >0.055264</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col8" class="data row27 col8" >0.052019</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col9" class="data row27 col9" >0.168311</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row27_col10" class="data row27 col10" >0.166743</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row28" class="row_heading level0 row28" >28</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col0" class="data row28 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col1" class="data row28 col1" >KNeighbors Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col2" class="data row28 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col3" class="data row28 col3" >5040.385410</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col4" class="data row28 col4" >0.095139</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col5" class="data row28 col5" >0.096002</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col6" class="data row28 col6" >0.000000</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col7" class="data row28 col7" >0.020439</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col8" class="data row28 col8" >0.000000</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col9" class="data row28 col9" >0.061167</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row28_col10" class="data row28 col10" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row29" class="row_heading level0 row29" >29</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col0" class="data row29 col0" >Communities and Crime</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col1" class="data row29 col1" >KNeighbors Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col2" class="data row29 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col3" class="data row29 col3" >26.853987</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col4" class="data row29 col4" >0.090555</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col5" class="data row29 col5" >0.097019</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col6" class="data row29 col6" >0.000000</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col7" class="data row29 col7" >0.020932</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col8" class="data row29 col8" >0.000000</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col9" class="data row29 col9" >0.060675</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row29_col10" class="data row29 col10" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row30" class="row_heading level0 row30" >30</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col0" class="data row30 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col1" class="data row30 col1" >Linear Regression</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col2" class="data row30 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col3" class="data row30 col3" >0.273269</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col4" class="data row30 col4" >0.001596</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col5" class="data row30 col5" >30.069332</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col6" class="data row30 col6" >22.247234</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col7" class="data row30 col7" >1369.483861</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col8" class="data row30 col8" >742.057973</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col9" class="data row30 col9" >30.178383</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row30_col10" class="data row30 col10" >19.266034</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row31" class="row_heading level0 row31" >31</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col0" class="data row31 col0" >Boston Housing</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col1" class="data row31 col1" >Linear Regression</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col2" class="data row31 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col3" class="data row31 col3" >0.242553</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col4" class="data row31 col4" >0.001796</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col5" class="data row31 col5" >30.392753</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col6" class="data row31 col6" >22.281217</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col7" class="data row31 col7" >1388.546104</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col8" class="data row31 col8" >746.548174</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col9" class="data row31 col9" >30.462106</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row31_col10" class="data row31 col10" >19.571196</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row32" class="row_heading level0 row32" >32</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col0" class="data row32 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col1" class="data row32 col1" >Decision Tree Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col2" class="data row32 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col3" class="data row32 col3" >0.748605</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col4" class="data row32 col4" >0.002398</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col5" class="data row32 col5" >31.641361</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col6" class="data row32 col6" >24.483430</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col7" class="data row32 col7" >1434.012844</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col8" class="data row32 col8" >885.633496</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col9" class="data row32 col9" >28.869502</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row32_col10" class="data row32 col10" >21.825951</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row33" class="row_heading level0 row33" >33</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col0" class="data row33 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col1" class="data row33 col1" >Decision Tree Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col2" class="data row33 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col3" class="data row33 col3" >0.203062</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col4" class="data row33 col4" >0.001994</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col5" class="data row33 col5" >32.416899</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col6" class="data row33 col6" >25.233118</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col7" class="data row33 col7" >1450.311066</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col8" class="data row33 col8" >934.852819</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col9" class="data row33 col9" >28.959502</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row33_col10" class="data row33 col10" >22.649287</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row34" class="row_heading level0 row34" >34</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col0" class="data row34 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col1" class="data row34 col1" >Random Forest Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col2" class="data row34 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col3" class="data row34 col3" >50.088679</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col4" class="data row34 col4" >0.010765</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col5" class="data row34 col5" >30.315432</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col6" class="data row34 col6" >18.553647</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col7" class="data row34 col7" >1267.449873</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col8" class="data row34 col8" >490.357933</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col9" class="data row34 col9" >28.475640</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row34_col10" class="data row34 col10" >16.903014</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row35" class="row_heading level0 row35" >35</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col0" class="data row35 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col1" class="data row35 col1" >Random Forest Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col2" class="data row35 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col3" class="data row35 col3" >11.428418</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col4" class="data row35 col4" >0.008395</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col5" class="data row35 col5" >30.277292</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col6" class="data row35 col6" >16.998222</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col7" class="data row35 col7" >1276.630146</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col8" class="data row35 col8" >416.452772</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col9" class="data row35 col9" >29.820436</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row35_col10" class="data row35 col10" >15.176435</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row36" class="row_heading level0 row36" >36</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col0" class="data row36 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col1" class="data row36 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col2" class="data row36 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col3" class="data row36 col3" >3.710078</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col4" class="data row36 col4" >0.001397</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col5" class="data row36 col5" >35.260313</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col6" class="data row36 col6" >27.463599</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col7" class="data row36 col7" >1719.480671</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col8" class="data row36 col8" >1143.968635</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col9" class="data row36 col9" >33.182113</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row36_col10" class="data row36 col10" >24.152233</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row37" class="row_heading level0 row37" >37</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col0" class="data row37 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col1" class="data row37 col1" >Passive Aggressive Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col2" class="data row37 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col3" class="data row37 col3" >0.319546</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col4" class="data row37 col4" >0.001397</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col5" class="data row37 col5" >30.198644</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col6" class="data row37 col6" >26.134155</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col7" class="data row37 col7" >1298.516063</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col8" class="data row37 col8" >1062.032151</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col9" class="data row37 col9" >27.544922</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row37_col10" class="data row37 col10" >22.046662</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row38" class="row_heading level0 row38" >38</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col0" class="data row38 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col1" class="data row38 col1" >KNeighbors Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col2" class="data row38 col2" >GridSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col3" class="data row38 col3" >29.423702</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col4" class="data row38 col4" >0.006587</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col5" class="data row38 col5" >30.498101</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col6" class="data row38 col6" >19.311749</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col7" class="data row38 col7" >1317.355806</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col8" class="data row38 col8" >670.872660</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col9" class="data row38 col9" >25.919236</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row38_col10" class="data row38 col10" >17.211087</td>
+            </tr>
+            <tr>
+                        <th id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55level0_row39" class="row_heading level0 row39" >39</th>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col0" class="data row39 col0" >Wisconsin Breast Cancer</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col1" class="data row39 col1" >KNeighbors Regressor</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col2" class="data row39 col2" >RandomizedSearchCV</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col3" class="data row39 col3" >0.303978</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col4" class="data row39 col4" >0.003805</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col5" class="data row39 col5" >29.855540</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col6" class="data row39 col6" >0.000000</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col7" class="data row39 col7" >1250.686630</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col8" class="data row39 col8" >0.000000</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col9" class="data row39 col9" >27.348528</td>
+                        <td id="T_5fd92eec_95d2_11ea_9e35_144f8ad4fd55row39_col10" class="data row39 col10" >0.000000</td>
+            </tr>
+    </tbody></table>
